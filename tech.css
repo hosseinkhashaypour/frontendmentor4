@@ -1,0 +1,114 @@
+body {
+    background: url(assest/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media(min-width:401px) {
+    #logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+        margin-top: -8%;
+        margin-left: 2%;
+    }
+
+    .logo {
+        margin-top: 6%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 16px;
+        overflow: hidden;
+        background-color: #f0f0f0;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        letter-spacing: 5px;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        transition: transform 1s;
+    }
+
+    li a:hover {
+        background-color: transparent;
+        transform: scale(1.1);
+    }
+
+    .menu-res {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-top: 1%;
+        margin-left: 50%;
+    }
+
+    .li-click-bg {
+        border-bottom: 1px solid white;
+    }
+
+    .lunch {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .lunch>h1 {
+        color: white;
+        letter-spacing: 10px;
+    }
+
+    .rocket {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .number-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -30%;
+        margin-left: 10%;
+        /* margin: 0 auto; */
+    }
+.number-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    color: white;
+    margin-right: 95%;
+    cursor: pointer;
+}
+    #number-child-1 {
+        width: 70px;
+        height: 70px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50%;
+        text-align: center;
+        color: black;
+    }
+}

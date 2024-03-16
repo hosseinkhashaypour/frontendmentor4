@@ -1,0 +1,166 @@
+:root {
+    --fontirs: irs;
+    --fontbahman: bahman;
+    --fontlale: lale;
+    --fontaviny: aviny;
+    --color1: #04AA6D;
+    --color2: #6528e0;
+    --color3: rgb(7 112 112);
+    --color4: rgb(23, 240, 23);
+    --color5: #0c0025;
+    --color6: rgb(1, 1, 54);
+    --color7: #171615;
+    --color8: #1D1615;
+    --color9: #20211A;
+    --color10: #141514;
+    --color11: #0F0616;
+    --color12: #292827;
+    --color13: rgb(13 16 25);
+    --bg-light: #eee;
+    --bg-dark: #444;
+}
+
+@media(min-width:401px) {
+    body {
+        background: url(assest/crew/background-crew-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+        margin-top: -8%;
+        margin-left: 2%;
+    }
+
+    .logo {
+        margin-top: 6%;
+    }
+
+    .menu-res {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-top: 1%;
+        margin-left: 50%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 16px;
+        overflow: hidden;
+        background-color: #f0f0f0;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        letter-spacing: 5px;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        transition: transform 1s;
+    }
+
+    li a:hover {
+        background-color: transparent;
+        transform: scale(1.1);
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 16px;
+        overflow: hidden;
+        background-color: #f0f0f0;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        letter-spacing: 5px;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        transition: transform 1s;
+    }
+
+    li a:hover {
+        background-color: transparent;
+        transform: scale(1.1);
+    }
+
+    .li-click-bg {
+        border-bottom: 1px solid white;
+    }
+
+    .meet {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 10%;
+    }
+
+    .meet>h1 {
+        color: white;
+        letter-spacing: 5px;
+    }
+
+    .flighter-eng {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 10%;
+    }
+
+    .flighter-eng>h1 {
+        color: gray;
+        letter-spacing: 5px;
+    }
+
+    .msansari {
+        color: white !important;
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+    .flighter-eng>p {
+        color: white;
+        text-align: justify;
+        font-size: 15px;
+        margin-left: -5%;
+    }
+
+    .msansari-img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .msansari-img-tag {
+        margin-top: -25%;
+    }
+}
